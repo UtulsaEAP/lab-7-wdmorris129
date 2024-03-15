@@ -4,6 +4,8 @@ def exceptionHandling():
     name = parts[0]
     while name != '-1':
         try: 
+            parts = input().split()
+            name = parts[0]
             age = int(parts[1])
             age += 1
             print(f'{name} {age}')
