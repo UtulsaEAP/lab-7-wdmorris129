@@ -7,7 +7,7 @@ def exceptionHandling():
             age = int(parts[1]) + 1
             print(f'{name} {age}')
         except ValueError:
-            print("0")
+            print(f'Invalid age for {name}')
             
         
         # Get next line
