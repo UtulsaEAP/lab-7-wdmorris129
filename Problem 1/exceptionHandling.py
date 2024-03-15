@@ -4,7 +4,8 @@ def exceptionHandling():
     name = parts[0]
     while name != '-1':
         try: 
-            age = int(parts[1]) + 1
+            age = int(parts[1])
+            age += 1
             print(f'{name} {age}')
         except ValueError:
             print(f'Invalid age for {name}')
